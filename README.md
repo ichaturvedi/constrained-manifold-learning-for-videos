@@ -1,4 +1,4 @@
-# sgan
+# CAMEL
 Create sub-dataset for each centroid in shortest path
 
 1.	Create video sequences and save in the folder ‘Drive’. Refer to ‘Drivetest’ for format.
