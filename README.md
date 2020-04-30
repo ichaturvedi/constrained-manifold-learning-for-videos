@@ -36,19 +36,21 @@ https://github.com/dyelax/Adversarial_Video_Generation
 
 Preprocessing
 ---
-The training data is in the form of triples : A (original image), B (styled background), C (segmentation mask)
-
-sample_input.jpg
+The training data is in the form of a sequence of images in a single video. We first divide each image into patches before training.
+python process_data.py --num_clips=10000 --train_dir=smile1 -o
+  - The training data will be taken from ./smile1
+  - "-o" is used to erase all previous clips
+  - "--num_clips" is used to divide each image into patches of 32 x 32
 
 Training
 ---
 Train the model:
-python train.py --dataroot ./datasets/dataset_name --name model_instance_name --model sd --direction AtoB --dataset_mode triple
- - The training data will be taken from ./datasets/dataset_name/train
- - "--model sd" is used to set the training model as the one defined in sd_model.py
- - "--dataset_mode triple" is used to the dataloader as the one defined in triple_dataset.py
- - Training results found under ./checkpoint
+python avg_runner.py –-test_dir=smiletest –O –-recursions=10 –-model_save_freq=1000 –-test_freq=1000
 
+ - The training data will be taken from ./smiletest
+ - "--recursions" is used to predict next 10 frames in the video
+ - "--model_save_freq" will save the model after every 1000 epochs of training.
+ - Trained models can be found in '../Save/Models'
 
 Testing
 ---
