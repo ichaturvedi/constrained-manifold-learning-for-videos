@@ -35,6 +35,7 @@ python avg_runner.py –-test_dir=smiletest –O –-recursions=10 –-model_sav
  - "--recursions" is used to predict next 10 frames in the video
  - "--model_save_freq" will save the model after every 1000 epochs of training.
  - Trained models can be found in '../Save/Models'
+ - The model for each centroid is used as starting point for next model training
 
 Testing
 ---
