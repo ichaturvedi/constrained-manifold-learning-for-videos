@@ -23,6 +23,8 @@ python process_data.py --num_clips=10000 --train_dir=smile1 -o
   - The training data will be taken from ./smile1
   - "-o" is used to erase all previous clips
   - "--num_clips" is used to divide each image into patches of 32 x 32
+  
+![image](https://user-images.githubusercontent.com/29162185/80721007-0d454500-8b41-11ea-8dba-05c70fc474a4.png)
 
 Training
 ---
