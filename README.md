@@ -48,12 +48,6 @@ Test Sample for Video Generation
 Smile Generation from neutral face :
 ![image](https://user-images.githubusercontent.com/29162185/80721317-6a40fb00-8b41-11ea-8187-8a36370a64ca.png)
 
-Generated Segmentation for Sample 1:
-carvideos/generated1.gif
-
-Sample 2 For Input Car video :
-carvideos/target2.gif
-
-Generated Segmentation for Sample 2:
-carvideos/generated2.gif
+Driving Path prediction : 
+![image](https://user-images.githubusercontent.com/29162185/80721528-aecc9680-8b41-11ea-99d5-1be2ec09546e.png)
 
