@@ -24,15 +24,15 @@ python avg_runner.py –test_dir=drivetest –O –recursions=10 –model_save_f
 7.	For testing only copy the scripts from folder ‘test’ :
 python avg_runner.py –test_dir=drivetest –O –T –recursions=10 –l ../Save/Models/Default/model.ckpt-40000
 
-# spgan
-Background Segmentation for Deep Style
+# camel
+Constrained Manifold Learning for Videos
 ===
-This code implements the model discussed in Background Segmentation for Deep Style. The model is able to segement the background 'suff' such as 'sea' or 'grass' and style it with different textures and brush size. We also use the model for segmenting 'cars' on a road in autonomous driving. 
+This code implements the model discussed in Constrained Manifold Learning for Videos. The model is able to generate a smile action video from a neutral face image. It can also be used to generate the driving path of a car for the next few seconds. We can also use the model to predict the path for a car in the next few seconds on a road in autonomous driving.
 
 Requirements
 ---
-This code is based on the pix2pix code found at:
-https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix
+This code is based on the Video Generation code found at:
+https://github.com/dyelax/Adversarial_Video_Generation
 
 Preprocessing
 ---
