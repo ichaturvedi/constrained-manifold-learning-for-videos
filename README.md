@@ -43,10 +43,10 @@ python avg_runner.py –-test_dir=smiletest –O –T –-recursions=10 –l ../
  - "-l" indicates the path to trained model
  - Testing results found under ../Save/Images/Test
 
-Test Sample for Car Segmentation
+Test Sample for Video Generation
 ---
-Sample 1 For Input Car video :
-carvideos/target1.gif
+Smile Generation from neutral face :
+![image](https://user-images.githubusercontent.com/29162185/80721317-6a40fb00-8b41-11ea-8187-8a36370a64ca.png)
 
 Generated Segmentation for Sample 1:
 carvideos/generated1.gif
