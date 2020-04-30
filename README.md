@@ -45,9 +45,9 @@ python avg_runner.py –-test_dir=smiletest –O –T –-recursions=10 –l ../
 
 Test Sample for Video Generation
 ---
-Smile Generation from neutral face :
+Smile Generation from neutral face ( the smile keeps getting bigger):
 ![image](https://user-images.githubusercontent.com/29162185/80721317-6a40fb00-8b41-11ea-8187-8a36370a64ca.png)
 
-Driving Path prediction : 
+Driving Path prediction (the street lamps at the top keep getting bigger): 
 ![image](https://user-images.githubusercontent.com/29162185/80721528-aecc9680-8b41-11ea-99d5-1be2ec09546e.png)
 
