@@ -1,4 +1,3 @@
-# camel
 Constrained Manifold Learning for Videos
 ===
 This code implements the model discussed in Constrained Manifold Learning for Videos. The model is able to generate a smile action video from a neutral face image. It can also be used to generate the driving path of a car for the next few seconds. We can also use the model to predict the path for a car in the next few seconds on a road in autonomous driving.
