@@ -1,4 +1,4 @@
-Constrained Manifold Learning for Videos
+Manifold learning for Smile Generation
 ===
 This code implements the model discussed in Constrained Manifold Learning for Videos. The model is able to generate a smile action video from a neutral face image. 
 
