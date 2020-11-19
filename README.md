@@ -7,7 +7,7 @@ Requirements
 This code is based on the Video Generation code found at:
 https://github.com/dyelax/Adversarial_Video_Generation
 
-Shortest-path Manifold Clustering
+Principal-path Manifold Clustering
 ---
 We cluster the the sequence of images in all the videos using principal path manifold clustering. 
 matlab -r TEST_kernel_smile
