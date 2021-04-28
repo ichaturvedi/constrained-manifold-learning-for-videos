@@ -51,4 +51,6 @@ Smile Generation from neutral face ( the smile keeps getting bigger):
 
 IJCNN 2020
 ---
-https://youtu.be/PdSeSQIrPBI
+Paper link : https://github.com/ichaturvedi/constrained-manifold-learning-for-videos/blob/master/iti-CAMEL.pdf
+
+Presentation : https://youtu.be/PdSeSQIrPBI
