@@ -49,6 +49,9 @@ Test Sample for Video Generation
 Smile Generation from neutral face ( the smile keeps getting bigger):
 ![image](https://user-images.githubusercontent.com/29162185/80721317-6a40fb00-8b41-11ea-8187-8a36370a64ca.png)
 
+![image](https://user-images.githubusercontent.com/65399216/184529131-d747a4df-8adb-4c75-acc5-6678e78be744.png)
+
+
 IJCNN 2020
 ---
 Paper link : https://ieeexplore.ieee.org/document/9207617
